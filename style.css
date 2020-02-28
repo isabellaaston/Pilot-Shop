@@ -54,6 +54,7 @@ a, select, form{
 	position: sticky;
 	top:0;
 	background-color: rgb(255, 255, 255);
+	z-index: 9999;
 }
 .navbar .right a{
 	color: rgb(60, 54, 66);
@@ -111,12 +112,13 @@ p.main{
 	border-width: 2px;
 	position: relative;
 	top: 10px;
+	margin: 1%;
 }
 main{
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
 	background-attachment: fixed;
 	background-position: center;
-	background-size: center;
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 .info-boxes{
@@ -143,4 +145,14 @@ main{
 	width: 27%;
 	height: 160px;
 	background-color: rgb(77, 175, 217);
+}
+h4{
+	padding: 2%;
+	margin: 0;
+}
+.selection{
+	margin: 5%;
+	padding: 0;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
