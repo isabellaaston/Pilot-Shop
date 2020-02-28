@@ -106,6 +106,7 @@ p.main{
 	background-position: center;
 	background-size: contain;
 	height: 500px;
+	background-repeat: no-repeat;
 }
 .info-boxes{
 	text-transform: uppercase;
@@ -114,6 +115,7 @@ p.main{
 	justify-content: space-around;
 	font-family: arial;
 	font-weight: bold;
+	align-items: baseline;
 }
 .hot{
 	width: 30%;
