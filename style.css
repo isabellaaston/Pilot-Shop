@@ -42,7 +42,7 @@ a, select, form{
 	font-weight: bold;
 }
 .navbar{
-	overflow: auto;
+	overflow: hidden;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: arial;
@@ -51,6 +51,9 @@ a, select, form{
 	padding-bottom: 2%;
 	width: 100%;
 	margin-right: 0%;
+	position: sticky;
+	top:0;
+	background-color: rgb(255, 255, 255);
 }
 .navbar .right a{
 	color: rgb(60, 54, 66);
@@ -79,11 +82,15 @@ a, select, form{
 	position: relative;
 	text-align: center;
 	color: rgb(255, 255, 255);
+	margin: 0%;
+	padding: 0%;
 }
 h1{
 	font-family: Arial;
 	text-transform: uppercase;
 	font-size: 500%;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 p.main{
 	font-family: Arial;
@@ -102,12 +109,15 @@ p.main{
 	color: rgb(255, 255, 255);
 	border-style: solid;
 	border-width: 2px;
+	position: relative;
+	top: 10px;
 }
 main{
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
 	background-attachment: fixed;
 	background-position: center;
-	background-size: contain;
+	background-size: center;
+	background-repeat: no-repeat;
 }
 .info-boxes{
 	text-transform: uppercase;
