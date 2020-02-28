@@ -107,3 +107,26 @@ p.main{
 	background-size: contain;
 	height: 500px;
 }
+.info-boxes{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: arial;
+	font-weight: bold;
+}
+.hot{
+	width: 30%;
+	height: 200px;
+	background-color: rgb(59, 59, 59);
+}
+.only{
+	width: 30%;
+	height: 200px;
+	background-color: rgb(46, 133, 178);
+}
+.portable{
+	width: 30%;
+	height: 200px;
+	background-color: rgb(77, 175, 217);
+}
