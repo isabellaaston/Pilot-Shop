@@ -86,6 +86,7 @@ h1{
 p.main{
 	font-family: Arial;
 	text-transform: uppercase;
+	padding: 10px;
 }
 .shop{
 	text-decoration: none;
@@ -100,13 +101,11 @@ p.main{
 	border-style: solid;
 	border-width: 2px;
 }
-.main-text{
+main{
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
 	background-attachment: fixed;
 	background-position: center;
 	background-size: contain;
-	height: 500px;
-	background-repeat: no-repeat;
 }
 .info-boxes{
 	text-transform: uppercase;
@@ -115,20 +114,21 @@ p.main{
 	justify-content: space-around;
 	font-family: arial;
 	font-weight: bold;
-	align-items: baseline;
+	position: relative;
+	top: 40px;
 }
 .hot{
-	width: 30%;
-	height: 200px;
+	width: 27%;
+	height: 160px;
 	background-color: rgb(59, 59, 59);
 }
 .only{
-	width: 30%;
-	height: 200px;
+	width: 27%;
+	height: 160px;
 	background-color: rgb(46, 133, 178);
 }
 .portable{
-	width: 30%;
-	height: 200px;
+	width: 27%;
+	height: 160px;
 	background-color: rgb(77, 175, 217);
 }
