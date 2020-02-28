@@ -1,0 +1,111 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.header-background{
+	background-color: rgb(247, 247, 247);
+	margin: 0%;
+	padding: 0%;
+	width: 100%;
+}
+.header{
+	list-style-type: none;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	overflow: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+.left{
+	display: inline-block;
+	float: left;
+}
+.right{
+	display: inline-block;
+	float: right;
+}
+form{
+	display: inline-block;
+}
+a, select, form{
+	text-decoration: none;
+}
+.nav{
+	color: rgb(152, 152, 152);
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+}
+.navbar{
+	overflow: auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 95%;
+}
+.navbar .right a{
+	color: rgb(60, 54, 66);
+}
+.home{
+	padding: 1%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(60, 54, 66);
+	margin: 1%;
+}
+.hover-border{
+	padding: 1%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	margin: 1%;
+}
+.hover-border:hover{
+	padding: 1%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(60, 54, 66);
+}
+.main{
+	position: relative;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+.centered{
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+h1{
+	font-family: Arial;
+	text-transform: uppercase;
+	font-size: 500%;
+}
+p.main{
+	font-family: Arial;
+	text-transform: uppercase;
+	padding-bottom: 10%;
+}
+.shop{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: rgb(255, 255, 255);
+	border-style: solid;
+	border-width: 2px;
+}
